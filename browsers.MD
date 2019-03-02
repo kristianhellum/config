@@ -1,4 +1,4 @@
-# Chrome / Chromium extensions
+# Chrome / Chromium - extensions
 
 ## Vimium
 ```
