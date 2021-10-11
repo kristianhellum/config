@@ -1,0 +1,11 @@
+# in the boot folder on the flashed sd card
+
+# ssh / ssh.txt in the boot folder will default enable ssh
+
+# wpa_supplicant.conf also in boot
+network={
+    ssid="testing"
+    psk="testingPassword"
+}
+
+country=NO
