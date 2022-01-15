@@ -1,0 +1,4 @@
+# RPI Crontab
+@reboot sleep 20 && export DISPLAY=:0 && /home/pi/Desktop/hass.sh
+@weekly sleep 60 && sudo reboot
+@hourly ping -q -c 4 -W 20 google.com || sudo reboot
